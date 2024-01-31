@@ -16,7 +16,7 @@ ImpB : ImplementationB.o
 ImplementationA.o : ImplementationA.cpp
 	g++ -c ImplementationA.cpp -o $@
 
-ImplementationB.o : ImplementationB.cpp
+ImplementationB.o : ImplementationB.cpp ImplementationBClass.hpp
 	g++ -c ImplementationB.cpp -o $@
 
 .PHONY: clean
