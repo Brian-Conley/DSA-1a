@@ -1,3 +1,9 @@
+/*
+ * ImplementationA.cpp
+ *
+ * Brian Conley
+ * DSA Assgn-1A
+ */
 #include <iostream>
 #include <iomanip>
 #include <limits>
@@ -28,6 +34,7 @@ namespace dsa {
                     ++stackCounter;
                     stackArr[stackCounter] = new char[3];
                     int i = 0;
+                    // Terminates after 2 chars OR null terminator
                     while (value[i] != '\0' && i < 2) {
                         stackArr[stackCounter][i] = validateChar(value[i]);
                         ++i;
@@ -41,6 +48,7 @@ namespace dsa {
                 char* poppedArray = new char[3];
                 if (stackCounter >= 0) {
                     int i = 0;
+                    // Terminates after 2 chars OR null terminator
                     while (stackArr[stackCounter][i] != '\0' && i < 2) {
                         poppedArray[i] = stackArr[stackCounter][i];
                         ++i;

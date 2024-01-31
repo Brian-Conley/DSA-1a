@@ -1,4 +1,5 @@
 # Build file for assignment 1a
+# Wrote for Linux systems, I don't know if this Makefile works on Windows
 
 OBJ := ImplementationA.o ImplementationB.o
 EXE := ImpA ImpB
