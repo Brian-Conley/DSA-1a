@@ -1,3 +1,9 @@
+/*
+ * ImplementationBClass.hpp
+ *
+ * Brian Conley
+ * DSA Assgn-1A
+ */
 #ifndef IMP_B_CLASS_HPP
 #define IMP_B_CLASS_HPP
 
